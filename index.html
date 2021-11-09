@@ -4,14 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Nicolas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/plugin/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ariette D Photographie</title>
 </head>
 <body>
-    <h1>Il sait tout faire</h1>
-    <div>
-        <Menu></Menu>
-        <p></p>
-    </div>
-    
+    <nav class="menu">
+        <ul class="navbar">
+            <img class="logo" src="assets/img/logo.svg" alt="Logo Arlette D Photographe">
+            <li><a href="#portraits">PORTRAITS</a></li>
+            <li><a href="#landscapes">LANDSCAPES</a></li>
+            <li><a href="#biographie">BIOGRAPHIE</a></li>
+            <li><a href="#formulaireh2">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class='diapo_auto_rwd'>
+            <input name="diapo" id='slide1' type="radio" class='slide_diapo'>
+            <input name="diapo" id='slide2' type="radio" class='slide_diapo'>
+            <input name="diapo" id='slide3' type="radio" class='slide_diapo'>
+            <input name="diapo" id='lance-diapo' type="radio" checked>
+            <input name="diapo" id='pause1' type="radio" class='pause_diapo'>
+            <input name="diapo" id='pause2' type="radio" class='pause_diapo'>
+            <input name="diapo" id='pause3' type="radio" class='pause_diapo'>
+            <ul>
+            <li><img src="assets/img/landscapes/landscape22.png" alt></li>
+            <li class='image1 slide_diapo'><img src='assets/img/landscapes/landscape33.png' alt></li>
+            <li class='image2 slide_diapo'><img src='assets/img/landscapes/landscape44.png' alt></li>
+            <li class='image3 slide_diapo'><img src='assets/img/landscapes/landscape99.png' alt></li>
+            <li class='image3 slide_diapo'><img src='assets/img/landscapes/landscape77.png' alt></li>
+            <li class='image3 slide_diapo'><img src='assets/img/landscapes/landscape22.png' alt></li>
+            </ul>
+            <div class='lancement_arret'>
+            <label class='lance_diapo' for='lance-diapo'></label>
+            <label class='pause_diapo image1' for='pause1'></label>
+            <label class='pause_diapo image2' for='pause2'></label>
+            <label class='pause_diapo image3' for='pause3'></label>
+            </div>
+            <div class='precedent'>
+            <label class='image1' for='slide1'></label>
+            <label class='image2' for='slide2'></label>
+            <label class='image3' for='slide3'></label>
+            </div>
+            <div class='suivant'>
+            <label class='image1' for='slide1'></label>
+            <label class='image2' for='slide2'></label>
+            <label class='image3' for='slide3'></label>
+            </div>		
+            </div>
+        <!-- <img src="assets/img/landscapes/landscape33.png" alt=""> -->
+    </header>
+        <div class="intromain">
+            <div class="intro">
+                <h1 class="introTitle">Ariette Deschamps - Photographe</h1>
+                <p>Je suis Ariette Deschamps, photographe professionnelle à votre service. Mes photos sont comme des tableaux : sur les visages je joue avec les couleurs pour mettre en valeur les émotions. Loin des clichés classiques, je vous propose des portraits uniques.
+                Pour aller plus loin, je pars à la recherche de la lumière pour la capturer. L'espace d'un instant le temps et la nature se figent pour nous offrir ce qu'ils ont de plus beau.
+                Je suis à votre disposition pour accompagner votre projet avec une offre sur-mesure, n'hésitez pas à me contacter.</p>
+            </div>
+        </div>
+    <main class="main">
+        <h2 id= "portraits"class="portraittitle">PORTRAITS</h2>
+        <div class="portraitpart1">
+            <a href="assets/img/portraits/portrait4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo11" class="imghover" src="assets/img/portraits/portrait4.jpg" alt=""/></a>
+            <a href="assets/img/portraits/portrait6.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo12" class="imghover" src="assets/img/portraits/portrait6.jpg" alt=""/></a>
+            <a href="assets/img/portraits/portrait9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo13" class="imghover" src="assets/img/portraits/portrait9.jpg" alt=""/></a>
+            <img id="photo14" src="assets/img/portraits/portrait8.jpg" alt="Photographie d'un portrait visage peint">
+        </div>
+        <div class="portraitbig">
+            <img id="photo15" src="assets/img/portraits/portrait7.jpg" alt="Photographie d'un portrait visage peint">
+        </div>
+        <div class="portraitpart2">
+            <img id="photo16" src="assets/img/portraits/portrait5.jpg" alt="Photographie d'un portrait visage peint">
+            <a href="assets/img/portraits/portrait1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo17" class="imghover" src="assets/img/portraits/portrait1.jpg" alt=""/></a>
+            <a href="assets/img/portraits/portrait2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo18" class="imghover" src="assets/img/portraits/portrait2.jpg" alt=""/></a>
+            <a href="assets/img/portraits/portrait3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo19" class="imghover" src="assets/img/portraits/portrait3.jpg" alt=""/></a>
+        </div>
+        <h2 id="landscapes"class="landscapetitle">LANDSCAPES</h2>
+        <div class="landscapepart1">
+            <a href="assets/img/landscapes/landscape9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo1" class="imghover" src="assets/img/landscapes/landscape9.jpg" alt=""/></a>
+            <a href="assets/img/landscapes/landscape5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo2" class="imghover" src="assets/img/landscapes/landscape5.jpg" alt=""/></a>
+            <a href="assets/img/landscapes/landscape1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo3" class="imghover" src="assets/img/landscapes/landscape1.jpg" alt=""/></a>
+            <img id="photo4" src="assets/img/landscapes/landscape8.jpg" alt="Photographie palmier coucher de soleil">
+        </div>
+        <div class="landscapebig">
+            <img id="photo5" src="assets/img/landscapes/landscape4.jpg" alt="Photographie arbre dans la brume du lever de soleil">
+        </div>
+        <div class="landscapepart2">
+            <img id="photo6" src="assets/img/landscapes/landscape6.jpg" alt="Photographie plage coucher de soleil">
+            <a href="assets/img/landscapes/landscape2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo1" class="imghover" src="assets/img/landscapes/landscape2.jpg" alt=""/></a>
+            <a href="assets/img/landscapes/landscape3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo1" class="imghover" src="assets/img/landscapes/landscape3.jpg" alt=""/></a>
+            <a href="assets/img/landscapes/landscape7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img id="photo1" class="imghover" src="assets/img/landscapes/landscape7.jpg" alt=""/></a>
+        </div>
+        <div class="biographie">
+            <img class="imgPhotographer" src="assets/img/photographer.jpg" alt="Portrait d'Ariette Deschamps">
+            <div class="blockTextBio">
+                <h2 id="biographie">BIOGRAPHIE</h2>
+                <p>Depuis toute petite, je capte la vie avec mon appareil photo à la main et depuis 5 ans je vis de ma passion. je perfectionne régulièrement ma technique par des stages photos immersifs. Je suis d'une nature discrète mais j'aime par dessus tout le contact avec les personnes. Je développe mon côté artistique en prenant des cours aux Beaux Arts. Mes points forts sont la réactivité et le sens de l'adaptation.
+                J'accompagne tous les grands moments de vos vies : mariage, grossesse, naissance... mais aussi les petits instants qui prennent une grande place dans vos coeurs, comme des portraits d'amis ou avec votre animal de compagnie préféré !
+                J'aime les challenges alors j'adapte mes prestations également aux entreprises.
+                &Eacute;crivez-moi un message pour apprendre à mieux se connaître et parler de votre projet...</p>
+            </div>
+        </div>
+
+        <div class="Contact">
+                <h2 id="formulaireh2">Discutons de vos projets...</h2>
+                <form class="formulaire" action="formulaire">
+                    <fieldset class="form">
+                        <div class=infos>
+                            <label class=firstname for="firstname">Prénom</label>
+                            <input type="text" id="firstname" name="firstname">
+                            <label class="name"for="name">Nom de famille</label>
+                            <input type="text" id="name" name="name">
+                            <label class="email"for="email">Adresse E Mail</label>
+                            <input type="text" id="email" name="email">
+                            <label class="phone"for="phone">Téléphone</label>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                        <div class="connaissance">
+                            <p>Comment m'avez vous connue?</p>
+                            <div class="answer1">
+                                <div class="google">
+                                    <input type="radio" id="Google" name="connue" value="Google"
+                                        checked>
+                                    <label for="Google">Google</label>
+                                </div>
+                                <div class="recommandation">
+                                    <input type="radio" id="Recommandation" name="connue" value="Recommandation">
+                                    <label for="Recommandation">Recommandation</label>
+                                </div>
+                                <div class="instagram">
+                                    <input type="radio" id="Instagram" name="connue" value="Instagram">
+                                    <label for="Instagram">Instagram</label>
+                                </div>
+                                <div class=facebook>
+                                    <input type="radio" id="Facebook" name="connue" value="Facebook">
+                                    <label for="Facebook">Facebook</label>
+                                </div>
+                                <div class="Autre">
+                                    <input type="radio" id="Autre" name="connue" value="Autre">
+                                    <label for="Autre">Autre</label>
+                                </div>
+                        </div>
+                        <div class="occasion">
+                            <p>Pour quelle occasion m'écrivez-vous?</p>
+                            <div class="answer2">
+                                <div>
+                                    <input type="radio" id="Famille" name="occasion" value="Famille"
+                                            checked>
+                                    <label for="Famille">Famille</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Portrait" name="occasion" value="Portrait">
+                                    <label for="Portrait">Portrait</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Naissance" name="occasion" value="Naissance">
+                                    <label for="Naissance">Naissance</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Grossesse" name="occasion" value="Grossesse">
+                                    <label for="Grossesse">Grossesse</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Mariage" name="occasion" value="Mariage">
+                                    <label for="Mariage">Mariage</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Entreprise" name="occasion" value="Entreprise">
+                                    <label for="Entreprise">Entreprise</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="Autre" name="occasion" value="Autre">
+                                    <label for="Autre">Autre</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <label for="message">Parlez moi de vous, de votre projet et de vos envies</label>
+                            <textarea name="Votre message" id="message" cols="20" rows="10" placeholder="Lieu, date souhaitée et tout les détails que vous désirez"></textarea>
+                            <input class="button"type="button" value="Envoyer">
+                        </div>
+                        </div>
+                    </fieldset>
+            </form>
+        </div>  
+        <div id="scroll_to_top">
+            <a href="#top"><img src="assets/img/haut.png" alt="Retourner en haut" /></a>
+        </div>
+    </main>
+    <footer id="footer">
+        <img src="assets/img/logo.svg" alt="logo de Ariette Photographe">
+        <div class="socialNetworks">
+            <i class="fab facebook fa-facebook-square"></i>
+            <i class="fab insta fa-instagram-square"></i>
+            <i class="fab link fa-linkedin"></i>
+        </div>
+        <p>Mentions Légales</p>
+   </footer>
+<script src="assets/plugin/js/lightbox-plus-jquery.js"></script>   
 </body>
 </html>
